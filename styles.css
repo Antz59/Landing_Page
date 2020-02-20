@@ -1,0 +1,61 @@
+body{
+  margin: 0e;
+  height: max-content;
+}
+
+div.landing-page#page-section{
+  background-image: url(img/hunter.jpeg);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+header{
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightcyan;
+}
+.content{
+color: lightcyan;
+max-width: 200px;
+max-height: max-content;
+margin-top: 100px;
+}
+.btn{
+  border: 2px solid;
+  margin-top: 160px;
+  padding: 10px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.product{
+  background-color: rgb(236, 209, 89);
+}
+
+.activities{
+  padding: 5px 10px;
+  margin-top: 1000px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px;
+  cursor: pointer;
+  transition: width 4s, height 8s;
+  -webkit-box-shadow: inset 0px 0px 41px -1px rgba(0,0,0,0.66);
+-moz-box-shadow: inset 0px 0px 41px -1px rgba(0,0,0,0.66);
+box-shadow: inset 0px 0px 41px -1px rgba(0,0,0,0.66);
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+
+}
+p.activities{
+  display: flex;
+  justify-content: center;
+}
+
+div.testimonials#page-section{
+  background-image: url(img/customer.jfif);
+  background-size: cover;
+  background-attachment: scroll;
+}
