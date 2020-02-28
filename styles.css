@@ -20,8 +20,18 @@ max-width: 200px;
 max-height: max-content;
 margin-top: 100px;
 }
+p{
+  font-size: 1rem;
+}
+
+@media (min-width: 750px){
+  p{
+  font-size: 1.25rem;
+  }
+    
+}
 .btn{
-  border: 2px solid;
+  border: 4px solid;
   margin-top: 160px;
   padding: 10px 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -58,4 +68,48 @@ div.testimonials#page-section{
   background-image: url(img/customer.jfif);
   background-size: cover;
   background-attachment: scroll;
+ 
+
 }
+
+.wrap{
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.card{
+  -webkit-box-shadow: -26px 25px 33px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: -26px 25px 33px -8px rgba(0,0,0,0.75);
+  box-shadow: -26px 25px 33px -8px rgba(0,0,0,0.75);
+  border: 2px solid;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  text-decoration-color: lightyellow;
+  background-color: white;
+}
+.card.testimonials{
+  margin: 30px;
+}
+
+.card > img{
+  max-height: 200px;
+  min-height: 200px;
+}
+
+div.info#page-section{
+  background-color: green;
+}
+.info ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.form > form{
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 1000px){
+  p{
+  font-size: 1.75rem;
+  }
